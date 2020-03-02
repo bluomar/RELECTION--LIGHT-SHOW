@@ -1,0 +1,13 @@
+void setup() {
+  
+pinMode(11, OUTPUT); //  using pin 11
+
+}
+
+void loop() {
+  
+for (int fadeValue = 0 ; fadeValue <= 255; fadeValue += 5) {
+// sets the value (range from 0 to 255):
+analogWrite(11, fadeValue);
+// 
+}
